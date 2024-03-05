@@ -1,18 +1,25 @@
-# ⛓️🔗⛓️ Template for IBC enabled Solidity contracts
+# ⛓️🔗⛓️ IBC-Enabled Solidity Contracts Template
 
-This repo provides a starter project to build [IBC](https://github.com/cosmos/ibc) enabled Solidity contracts that connect rollups to one another Polymer Hub, through the [vIBC core contracts](https://github.com/open-ibc/vibc-core-smart-contracts).
+Welcome to a starter project designed to kickstart your journey into building [Inter-Blockchain Communication (IBC)](https://github.com/cosmos/ibc) enabled Solidity contracts. This template is tailored for projects aiming to interconnect rollups or other blockchain architectures via the Polymer Hub, leveraging the power of [vIBC core contracts](https://github.com/open-ibc/vibc-core-smart-contracts).
 
-The repository is a _GitHub template_ repository so you can click "Use this template" to create your own project repository without having the entire commit history of the template.
+As a _GitHub template_ repository, you're only a click away from beginning your own project. Simply select "Use this template" to start a new repository for your project, free from the baggage of the template's commit history.
 
-![GitHub template](./img/gh_template.png)
+![GitHub Template Usage](./img/gh_template.png)
 
-## 📚 Documentation
+## 📚 Extensive Documentation
 
-There's some basic information here in the README but a more comprehensive documentation can be found in [the official Polymer documentation](https://docs.polymerlabs.org/docs/category/build-ibc-dapps-1).
+While this README provides a foundational overview, for an in-depth guide on building IBC-enabled DApps with Solidity, refer to the [official Polymer documentation](https://docs.polymerlabs.org/docs/category/build-ibc-dapps-1). Here, you will find everything from basic concepts to advanced contract interactions explained.
 
 ## 📋 Prerequisites
 
-The repo is **compatible with both Hardhat and Foundry** development environments.
+This template offers flexibility by ensuring compatibility with both Hardhat and Foundry, two of the leading development environments for Ethereum smart contract development. This allows you to choose the environment that best suits your workflow and preferences.
+
+---
+
+Before diving into the development, make sure to set up your development environment according to the chosen tool (Hardhat or Foundry). Each has its own setup process, and being familiar with the basics of Solidity and smart contract development is highly recommended.
+
+Happy building! May your journey into the IBC-enabled ecosystem be both exciting and fruitful.
+
 
 - Have [git](https://git-scm.com/downloads) installed
 - Have [node](https://nodejs.org) installed (v18+)
