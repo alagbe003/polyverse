@@ -205,38 +205,28 @@ to send a packet over a **custom channel**. You can pick either optimism or base
 ```bash
 # Usage: just switch-client [universal=true]
 just switch-client false
-```
+This command will switch to using the op-stack client with proofs, ensuring that the relayer is proving what is being submitted every step along the way, thereby eliminating any trust assumptions on the relayer.
 
-This will use the op-stack client with proofs, making sure that the relayer is proving what is being submitted every step along the way, ensuring there's no trust assumption on the relayer.
+🦾 Advanced Usage
+For advanced users, there are multiple customizations to follow. These include configuring the config.json manually and/or running the scripts without using just.
 
-## 🦾 Advanced usage
-
-For advanced users, there's multiple custimizations to follow. These includes configuring the config.json manually and/or running the scripts without using just.
-
-For example, the last action to send a packet on a universal channel could be executed with this command:
-
-```bash
+For example, to execute the last action to send a packet on a universal channel, you can use the following command:
 npx hardhat run scripts/send-universal-packet.js --network base
-```
+This command sends a universal packet from the contract specified in the config.sendUniversalPacket field in the config.
 
-To send a universal packet from the contract specified in the config.sendUniversalPacket field in the config.
+🤝 Contributing
+We welcome and encourage contributions from our community! Here’s how you can contribute:
 
-## 🤝 Contributing
+Fork the Repository: Start by forking this repository.
+Apply the Improvements: Optimize something or add support for additional developer tooling? Add your changes!
+Create a Pull Request: Once you're ready and have tested your added code, submit a PR to the repo, and we'll review it as soon as possible.
+If there's an issue that has the help wanted label or good first issue, those are up for grabs. Assign yourself to the issue so people know you're working on it. Alternatively, you can open an issue for a new idea or piece of feedback.
 
-We welcome and encourage contributions from our community! Here’s how you can contribute.
-
-Take a look at the open issues. If there's an issue that has the _help wanted_ label or _good first issue_, those are up for grabs. Assign yourself to the issue so people know you're working on it.
-
-Alternatively you can open an issue for a new idea or piece of feedback.
-
-When you want to contribute code, please follow these steps:
-
-1. **Fork the Repository:** Start by forking this repository.
-2. **Apply the improvements:** Want to optimize something or add support for additional developer tooling? Add your changes!
-3. **Create a Pull Request:** Once you're ready and have tested your added code, submit a PR to the repo and we'll review as soon as possible.
-
-## 💡 Questions or Suggestions?
-
-Feel free to open an issue for questions, suggestions, or discussions related to this repository. For further discussion as well as a showcase of some community projects, check out the [Polymer developer forum](https://forum.polymerlabs.org).
+💡 Questions or Suggestions?
+Feel free to open an issue for questions, suggestions, or discussions related to this repository. For further discussion as well as a showcase of some community projects, check out the Polymer developer forum.
 
 Thank you for being a part of our community!
+
+
+I made some grammatical improvements and formatting adjustments for clarity and consistency.
+
